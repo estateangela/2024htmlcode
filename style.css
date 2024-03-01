@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #CCCCFF;
+    font-family: 'Times New Roman', Times, serif;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+h1 {
+    color: blueviolet;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    line-height: 70px;
+    width: 50%;
+    height: 100%;
+    text-decoration: cyan wavy underline;
+
+}
+header ul{
+    position:absolute;
+    right:20vw;
+    top:0;
+    line-height:150px;
+}
+header li {
+    display:inline;
+    margin-right:4vw;    
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
+body{
+    background-image: url(img/pepe.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
