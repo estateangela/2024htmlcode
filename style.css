@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #CCCCFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px;
+    
+}
+h1 {
+    color: blueviolet;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    line-height: 70px;
+    width: 50%;
+    height: 100%;
+    text-decoration: cyan wavy underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header ul{
+    position:absolute;
+    right:20vw;
+    top:0;
+    line-height:150px;
+    font-size: larger;
+}
+header li {
+    display:inline;
+    margin-right:3vw;    
+}
+header a {
+    color:white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: blueviolet wavy underline;
+}
+
+body{
+    background-color: azure;
+}
+.pepe {
+    display:inline-block;
+    padding-left: 100px;
+    padding-top: 5vw;
+    
+}
+.pepe h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+    margin-top:60px;
+    color: blueviolet;
+    margin-bottom: 4vw;
+
+}
+.pepe img {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    border-radius: 20px;
+}
+
+footer {
+    background-color:#CCCCFF;
+    color:blueviolet;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* 響應式設計語法 */
+@media screen and (max-width: 768px) {
+    header ul {
+        display:none;
+    }
+    header h1 {
+        left:50%;
+        transform: translateX(-50%);
+        }
+}
+    
