@@ -47,7 +47,8 @@ body{
     background-color: azure;
 }
 .pepe {
-    display:inline-block;
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 100px;
     padding-top: 5vw;
     
@@ -55,9 +56,11 @@ body{
 .pepe h2{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:30px;
+    font-weight:bolder;
     margin-top:60px;
     color: blueviolet;
     margin-bottom: 4vw;
+    margin-left: 4vw;
 
 }
 .pepe img {
@@ -80,12 +83,15 @@ footer {
 
 /* 響應式設計語法 */
 @media screen and (max-width: 768px) {
+    
     header ul {
-        display:none;
+        display:inline;
+        font-size:small;
     }
     header h1 {
+        font-size:larger;
         left:50%;
         transform: translateX(-50%);
         }
-}
+    }
     
